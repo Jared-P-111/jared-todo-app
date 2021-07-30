@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  background: linear-gradient(to right, #240b36, #c31432);
+  height: 100%;
+  min-height: 100vh;
+}
+
+.header {
+  color: white;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 5em;
+  text-transform: uppercase;
+  font-family: 'Big Shoulders Stencil Display', cursive;
+}
+
+.form-container {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+}
+
+.input-container {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.todo-input {
+  height: 3rem;
+  width: 40vw;
+  font-size: 2rem;
+}
+
+.todo-input-btn {
+  text-transform: uppercase;
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  font-size: 2rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 5px;
+  background-color: transparent;
+  color: white;
+  border: white 1px solid;
+}
+
+.filter-todo {
+  height: 3rem;
+  font-size: 1.5rem;
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  background-color: transparent;
+  border: white 1px solid;
+  color: white;
+  margin-left: 5px;
+}
+
+.todo-list {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.todo {
+  display: flex;
+  align-items: stretch;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  background-color: white;
+  height: 60px;
+  margin-bottom: 3px;
+  min-width: 400px;
+  font-size: 2.5rem;
+  list-style-type: none;
+  font-family: 'Big Shoulders Stencil Display', cursive;
+}
+
+.line-through {
+  text-decoration: line-through;
+  color: rgb(16, 144, 16);
+}
+
+/* --------------------Icons-------------------- */
+
+.complete-btn {
+  border: none;
+  background: rgb(24, 211, 33);
+  margin-bottom: 3px;
+}
+
+.fa-check {
+  color: white;
+  font-size: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.fa-check:hover {
+  color: rgb(16, 144, 16);
+}
+
+.edit-btn {
+  border: none;
+  background: rgb(123, 17, 194);
+  margin-bottom: 3px;
+}
+
+.fa-pencil-alt {
+  color: white;
+  font-size: 40px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.fa-pencil-alt:hover {
+  color: rgb(64, 9, 100);
+}
+
+.trash-btn {
+  border: none;
+  background: rgb(255, 104, 3);
+  margin-bottom: 3px;
+}
+
+.fa-trash {
+  color: white;
+  font-size: 40px;
+  padding-right: 18px;
+  padding-left: 18px;
+}
+
+.fa-trash:hover {
+  color: rgb(179, 71, 0);
+}
